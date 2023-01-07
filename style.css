@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    max-width: 1600px;
+    height: 809px;
+    border: 1px solid red;
+    background-image: url(./images/banner/banner2.png);
+    background-size: cover;
+}
+.header-head{
+    margin: 0%;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 200px;
+    font-size: 65px;
+}
+.header-discription{
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.head-contact-btn{
+    margin-left: 990px;
+    height: 64px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #F15B22;
+    border: none;
+   
+
+}
+.blog{
+    background-image: url(./images/person.png);
+    max-width: 1050px;
+    height: 750px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.blog-head{
+    text-align: left;
+    padding-left: 650px;
+    padding-top: 240px;
+    font-size: 52px;
+}
+.blog-text{
+    text-align: left;
+    padding-left:650px ;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.failures-list{
+    text-align: left;
+    padding-left: 670px;
+    padding-top: 25px;
+    font-size: 18px;
+}
+.plan-head{
+    margin: auto;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 40px;
+
+}
+.plan-icon{
+    display: flex;
+    list-style-type: none;
+    max-width: 1050px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.contacts{
+    max-width: 1050px;
+    height: 150px;
+    background-image: url(./images/watch.png), linear-gradient(to right ,rgb(255, 0, 0),white);
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+.contacts-dic{
+    padding-left: 30px;
+    font-size: 25px;
+}
+.call-btn{
+    width: 80px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 5px;
+    color: #F15B22;
+}
+footer{
+    display: flex;
+    max-width: 1600px;
+    height: 400px;
+    margin-bottom: 25px;
+    background-color: black;
+    justify-content: left;
+}
+.future-dic{
+    color: white;
+    flex-basis: 45%;
+    padding-left: 5%;
+    margin-top: 7%;
+}
+.footer-ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.dicription{
+    margin-top: 8px;
+}
+.phone{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 10px;
+}
+.footer-from{
+    flex-basis: 45%;
+    padding-left: 5%;
+    margin-top: 8%;
+}
+.about{
+    display: flex;
+    max-width: 1600px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F15B22;
+    padding-bottom: 20px;
+}
+.about-me{
+   max-width: 1600px;
+  background-color: #F15B22;
+}
+.about-head{
+    margin-left: 550px;
+    font-size: 35px;
+}
